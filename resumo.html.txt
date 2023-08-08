@@ -1,0 +1,15 @@
+<html>
+	<head>
+	      <little>3ª aula</title>
+        <head>
+       <body>
+	      <h1><p>3 ª AULA</h1>
+              <ul style="text-allign: center">
+              <li style="color:blue; font-size: 50px">item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+        <ul>
+    </body>
+</html>
+	      
+ 	
