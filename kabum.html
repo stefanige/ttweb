@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>Kabum</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    header {
+        background-color: rgb(18, 86, 163);
+        width: 100%;
+        height: 100%;
+        padding-top: 5%;
+    }
+
+    .menu {
+        width: 50%;
+        height: 50%;
+        margin-left: 65%;
+        margin-top: -6%;
+        display: flex;
+    }
+
+    .menu img {
+        width: 35px;
+        margin-left: -20%;
+    }
+
+    .logo img {
+        width: 150px;
+        position: absolute;
+        padding: -2%;
+        margin-top: -5%;
+    }
+
+    .menu nav a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding-right: 50px;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+    }
+
+    .cor1 {
+        color: rgb(197, 196, 192);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .cor2 {
+        color: rgb(197, 196, 192);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .linhaL {
+        border: 2px solid orange;
+    }
+
+    .login {
+        color: rgb(255, 115, 15);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: -21%;
+    }
+
+    .linhaA {
+        border: 2px solid rgb(18, 86, 163);
+        width: 5%;
+        margin-left: 35%;
+    }
+
+    .email {
+        width: 20%;
+        margin-top: 1%;
+        padding: 1%;
+        margin-right: 30px;
+        margin-left: 35%;
+        border-radius: 5px;
+        border: 2px solid rgb(222, 218, 218);
+    }
+  
+    .Senha {
+        width: 20%;
+        padding: 1%;
+        margin-right: 30px;
+        margin-left: 35%;
+        margin-top: 1%;
+        border-radius: 5px;
+        border: 2px solid rgb(222, 218, 218);
+    }
+
+    .botao {
+        width: 20%;
+        margin-top: 1%;
+        margin-left: 35%;
+        padding-top: 9px;
+        background-color: rgb(251, 105, 9);
+        border: 2px solid rgb(242, 102, 8);
+        border-radius: 5px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .senha {
+        font-size: 18px;
+        margin-left: 48%;
+    }
+
+    .linha {
+        width: 20%;
+        margin-left: 35%;
+        margin-top: 1%;
+    }
+
+    .sociais {
+        display: flex;
+        margin-top: 3%;
+    }
+
+    .escrita {
+        font-size: 12px;
+        color: rgb(112, 116, 116);
+       margin-top: -2%;
+       margin-left: 35%;
+    }
+    .redeF img{
+        width: -25%;
+        height: 45%;
+    }
+    .redeF {
+        width: 11%;
+        border: 2px solid rgb(10, 87, 230);
+        border-radius: 2px;
+        margin-left: -22%;
+        color: rgb(9, 70, 183);
+        font-size: 20px;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .redeG {
+        width:11%;
+        border: 2px solid rgb(219, 52, 26);
+        border-radius: 2px;
+        color: rgb(207, 50, 26);
+        font-size: 20px;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .branco{
+    background-color: rgb(255, 255, 255);
+    width: 1%;
+    }
+    .fotoslogos{
+        width: 11%;
+        height: 45%;
+        margin-left: 20%;
+        margin-top: 7%;
+    }
+
+</style>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="kabum (1).png">
+            </div>
+            <div class="ll">
+
+            </div>
+            <div class="menu">
+                <div> <img src="FOTO.png">
+                </div>
+                <nav>
+                    <a href="#"> Faça<span class="cor1"> LOGIN</span> ou <br> crie seu <span class="cor2">CADASTRO</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="linhaL">
+    </div>
+    <div>
+        <div class="login">
+            <h1> FAZER LOGIN </h1>
+        </div>
+        <div class="linhaA">
+        </div>
+    </div>
+    <div class="quadrado">
+        <input type="email" placeholder="E-mail, CPF OU CNPJ" class="email" /><br /> </p>
+        <input type="password" placeholder="Senha" class="Senha" /><br /></p>
+        <input type="submit" value="Entrar" onclick="window.location.href='./logar.html' " class="botao">
+    </div>
+    <div class="senha">
+        <p><a href="Esenha.html">Esqueceu a senha?</p></a>
+    </div>
+    <div class=linha>
+        <hr>
+    </div>
+    <div>
+        <div class="sociais">
+            <div class="escrita">
+                <h1>Quero acessar com minhas redes sociais</h1>
+            </div>
+            <div class="redeF"><img src="facebook.logo.png" width="+45" height="25" alt="FACEBOOK">FACEBOOK</div>
+            <div class="branco"></div>
+            <div class="redeG"><img src="ggremover.png" width="+45" height="25" alt="GOOGLE">GOOGLE</div>
+            
+        </div>
+    </div>
+</body>
+<div>
+    <div class="fotoslogos">
+        <img src="fotoslogos.png">
+
+    </div>
+        <div class="luz">
+            <p>  kdkkkdkkd </p>
+        </div>  
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color:rgb(23,78,166);
+            color: white;
+            padding: -10px;
+            text-align: center;
+        }
+        nav .luz {
+            background-color: rgb(23,78,166);
+            color: rgb(23,78,166);
+            padding: -5px;
+            text-align: center;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .product img {
+            max-width: 100%;
+        }
+        .div1{
+margin-left: -70%;
+            }
+        
+    </style>
+</head>
+<body>
+    <header>
+
+          
