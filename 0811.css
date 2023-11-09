@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(198, 162, 223);
+    font: 13pt Arial;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+
+h1 {
+    color: rgb(171, 68, 219);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(67, 131, 216));
+}
+
+aside {
+    display: block; 
+    font-size: 10pt;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 60px; 
+    display: block; 
+    float: left;
+    margin-right: 10px;
+}
+
+a, a:visited {
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(171, 68, 219);
+    text-decoration: none;
+}
