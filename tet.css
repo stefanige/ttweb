@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header {
+    background-color: rgba(249, 124, 7, 0.736);
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: block;
+    max-width: auto;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+}
+
+
+.text2 ul a {
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.text {
+    color: white;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding: -5px;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+img {
+    width: 64%;
+    margin-top: 0%;
+    margin-right: 0%;
+}
+
+
+
+#img2 {
+    width: 250px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#promocao img {
+    display: flex;
+    margin-left: 195px;
+    margin-top: -230%;
+    width: 130px;
+}
+
+.text3 {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: -12px;
+
+}
+
+
+#formes {
+    width: 120px;
+    padding: 20px;
+}
+
+#the {
+    width: 120px;
+    padding: 20px;
+}
+
+#img3 {
+    width: 120px;
+    padding: 20px;
+}
+
+#img4 {
+    width: 120px;
+    padding: 20px;
+}
+
+#img5 {
+    width: 120px;
+    padding: 20px;
+}
+
+#img6 {
+    width: 120px;
+    padding: 20px;
+}
+
+#img7 {
+    width: 120px;
+    padding: 20px;
+}
+
+#img8 {
+    width: 120px;
+    padding: 20px;
+}
+
+#part1 p {
+    font-size: 35px;
+    padding: 60px;
+    font-family: sans-serif;
+    color: rgba(92, 65, 8, 0.8);
+    font-weight: 800;
+}
+
+.cont_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: -12px;
+}
+
+.container1 {
+    border: 1px solid black;
+    width: 330px;
+    height: 460px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+#cont1 {
+    width: 239px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.container2 {
+    border: 1px solid black;
+    width: 330px;
+    height: 480px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+#cont2 {
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.container3 {
+    border: 1px solid black;
+    width: 330px;
+    height: 460px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#cont3 {
+    width: 239px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.container4 {
+    border: 1px solid black;
+    width: 330px;
+    height: 460px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#cont4 {
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.cont_principal p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+button {
+    width: 330px;
+    ;
+    height: 38px;
+    color: white;
+    background-color: black;
+}
+
+.textoo p {
+    color: rgb(146, 32, 32);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.creme img {
+    border-radius: 50%;
+    width: 460px;
+    height: 460px;
+    align-items: center;
+    margin-left: 35%;
+    display: inline-block;
+
+}
+
+.textonivea p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    margin-top: -300px;
+    margin-left: 150px;
+}
+
+.textonivea2 p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    margin-top: -178px;
+    margin-left: 1230px;
+   
+}
+
+.bigcontainer{
+    background-color: black;
+    
+    width: 100%;
+    height: 200%;
+}
